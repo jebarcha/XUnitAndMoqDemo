@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkyTwo", "SparkyTwo\SparkyTwo.csproj", "{475CDC08-EBB7-4498-925B-BE6D51E1A3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkyTwoXUnitTest", "SparkyTwoXUnitTest\SparkyTwoXUnitTest.csproj", "{EE87CDD0-4FFE-4A24-9B0A-7B7F5705E6FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{475CDC08-EBB7-4498-925B-BE6D51E1A3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CDC08-EBB7-4498-925B-BE6D51E1A3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CDC08-EBB7-4498-925B-BE6D51E1A3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CDC08-EBB7-4498-925B-BE6D51E1A3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE87CDD0-4FFE-4A24-9B0A-7B7F5705E6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE87CDD0-4FFE-4A24-9B0A-7B7F5705E6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE87CDD0-4FFE-4A24-9B0A-7B7F5705E6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE87CDD0-4FFE-4A24-9B0A-7B7F5705E6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E75BA621-594B-4B62-BCD1-787DC21709DB}
+	EndGlobalSection
+EndGlobal
