@@ -1,0 +1,1362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="460" visitedSequencePoints="36" numBranchPoints="74" visitedBranchPoints="6" sequenceCoverage="7.82" branchCoverage="8.1" maxCyclomaticComplexity="81" minCyclomaticComplexity="8" visitedClasses="5" numClasses="28" visitedMethods="11" numMethods="58" />
+  <Modules>
+    <Module hash="54FA021C-97B4-41A9-A709-A17D455428B2">
+      <ModulePath>Bongo.Core.dll</ModulePath>
+      <ModuleTime>2022-06-21T04:57:13</ModuleTime>
+      <ModuleName>Bongo.Core</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Core\Services\StudyRoomBookingService.cs" />
+        <File uid="2" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Core\Services\StudyRoomService.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="40" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Bongo.Core.Services.StudyRoomBookingService</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="31" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Bongo.Models.Model.VM.StudyRoomBookingResult Bongo.Core.Services.StudyRoomBookingService::BookStudyRoom(Bongo.Models.Model.StudyRoomBooking)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="28" ordinal="1" sl="28" sc="1" el="28" ec="2" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="29" ordinal="2" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="30" ordinal="3" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="33" ordinal="4" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="34" ordinal="5" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="35" ordinal="6" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="36" ordinal="7" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="37" ordinal="8" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="38" ordinal="9" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="40" ordinal="10" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="41" ordinal="11" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="42" ordinal="12" sl="42" sc="1" el="42" ec="2" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="43" ordinal="13" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="44" ordinal="14" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="45" ordinal="15" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="46" ordinal="16" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="47" ordinal="17" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="48" ordinal="18" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="49" ordinal="19" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="50" ordinal="20" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="51" ordinal="21" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="52" ordinal="22" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="53" ordinal="23" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="54" ordinal="24" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="55" ordinal="25" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="57" ordinal="26" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="58" ordinal="27" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="59" ordinal="28" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="61" ordinal="29" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="62" ordinal="30" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="28" ordinal="0" path="0" offset="13" offsetend="15" sl="28" fileid="1" />
+                <BranchPoint vc="0" uspid="28" ordinal="1" path="1" offset="13" offsetend="27" sl="28" fileid="1" />
+                <BranchPoint vc="0" uspid="42" ordinal="2" path="0" offset="188" offsetend="190" sl="42" fileid="1" />
+                <BranchPoint vc="0" uspid="42" ordinal="3" path="1" offset="188" offsetend="308" sl="42" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="27" ec="1" el="62" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Bongo.Models.Model.StudyRoomBooking&gt; Bongo.Core.Services.StudyRoomBookingService::GetAllBooking()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="65" ordinal="0" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="66" ordinal="1" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="67" ordinal="2" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="65" ec="1" el="67" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Core.Services.StudyRoomBookingService::.ctor(Bongo.DataAccess.Repository.IRepository.IStudyRoomBookingRepository,Bongo.DataAccess.Repository.IRepository.IStudyRoomRepository)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="22" ordinal="3" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="23" ordinal="4" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="24" ordinal="5" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="19" ec="1" el="24" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Bongo.Core.Services.StudyRoomService</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Bongo.Models.Model.StudyRoom&gt; Bongo.Core.Services.StudyRoomService::GetAll()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="22" ec="1" el="24" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Core.Services.StudyRoomService::.ctor(Bongo.DataAccess.Repository.IRepository.IStudyRoomRepository)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="15" ec="1" el="18" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="4F0F4AB7-6021-455E-B04D-5115B2D5E835">
+      <ModulePath>Bongo.DataAccess.dll</ModulePath>
+      <ModuleTime>2022-06-21T04:57:13</ModuleTime>
+      <ModuleName>Bongo.DataAccess</ModuleName>
+      <Files>
+        <File uid="3" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\ApplicationDbContext.cs" />
+        <File uid="4" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\Repository\StudyRoomBookingRepository.cs" />
+        <File uid="5" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\Repository\StudyRoomRepository.cs" />
+        <File uid="6" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\Migrations\20210703013438_initial.cs" />
+        <File uid="7" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\Migrations\20210703013438_initial.Designer.cs" />
+        <File uid="8" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="31" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Bongo.DataAccess.ApplicationDbContext</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.EntityFrameworkCore.DbSet`1&lt;Bongo.Models.Model.StudyRoom&gt; Bongo.DataAccess.ApplicationDbContext::get_StudyRooms()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="17" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.EntityFrameworkCore.DbSet`1&lt;Bongo.Models.Model.StudyRoomBooking&gt; Bongo.DataAccess.ApplicationDbContext::get_StudyRoomBookings()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="18" ec="1" el="18" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="26" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.ApplicationDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="22" ordinal="1" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="23" ordinal="2" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="24" ordinal="3" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="25" ordinal="4" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="26" ordinal="5" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="27" ordinal="6" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="28" ordinal="7" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="29" ordinal="8" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="30" ordinal="9" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="31" ordinal="10" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="32" ordinal="11" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="33" ordinal="12" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="34" ordinal="13" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="35" ordinal="14" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="36" ordinal="15" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="37" ordinal="16" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="38" ordinal="17" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="39" ordinal="18" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="40" ordinal="19" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="41" ordinal="20" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="42" ordinal="21" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="43" ordinal="22" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="44" ordinal="23" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="45" ordinal="24" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="46" ordinal="25" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="21" ec="1" el="46" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.ApplicationDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;Bongo.DataAccess.ApplicationDbContext&gt;)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="14" ordinal="1" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="13" ec="1" el="16" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Bongo.DataAccess.Repository.StudyRoomBookingRepository</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Bongo.Models.Model.StudyRoomBooking&gt; Bongo.DataAccess.Repository.StudyRoomBookingRepository::GetAll(System.Nullable`1&lt;System.DateTime&gt;)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="2" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="27" ordinal="4" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="28" ordinal="5" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="23" ordinal="0" path="0" offset="27" offsetend="32" sl="23" fileid="4" />
+                <BranchPoint vc="0" uspid="23" ordinal="1" path="1" offset="27" offsetend="243" sl="23" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="22" ec="1" el="28" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.Repository.StudyRoomBookingRepository::Book(Bongo.Models.Model.StudyRoomBooking)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="32" ordinal="1" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="33" ordinal="2" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="34" ordinal="3" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="31" ec="1" el="34" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.Repository.StudyRoomBookingRepository::.ctor(Bongo.DataAccess.ApplicationDbContext)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="15" ec="1" el="18" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Bongo.DataAccess.Repository.StudyRoomRepository</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Bongo.Models.Model.StudyRoom&gt; Bongo.DataAccess.Repository.StudyRoomRepository::GetAll()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="22" ec="1" el="24" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.Repository.StudyRoomRepository::.ctor(Bongo.DataAccess.ApplicationDbContext)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="15" ec="1" el="18" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="49" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Bongo.DataAccess.Migrations.initial</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="43" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.Migrations.initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="10" ordinal="1" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="11" ordinal="2" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="12" ordinal="3" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="13" ordinal="4" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="14" ordinal="5" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="15" ordinal="6" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="16" ordinal="7" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="17" ordinal="8" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="18" ordinal="9" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="19" ordinal="10" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="20" ordinal="11" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="21" ordinal="12" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="22" ordinal="13" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="23" ordinal="14" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="24" ordinal="15" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="25" ordinal="16" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="27" ordinal="17" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="28" ordinal="18" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="29" ordinal="19" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="30" ordinal="20" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="31" ordinal="21" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="32" ordinal="22" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="33" ordinal="23" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="34" ordinal="24" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="35" ordinal="25" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="36" ordinal="26" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="37" ordinal="27" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="38" ordinal="28" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="39" ordinal="29" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="41" ordinal="30" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="42" ordinal="31" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="43" ordinal="32" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="44" ordinal="33" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="46" ordinal="34" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="47" ordinal="35" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="48" ordinal="36" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="49" ordinal="37" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="51" ordinal="38" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="52" ordinal="39" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="53" ordinal="40" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="54" ordinal="41" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="55" ordinal="42" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="9" ec="1" el="55" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.Migrations.initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="58" ordinal="0" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="59" ordinal="1" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="60" ordinal="2" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="62" ordinal="3" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="63" ordinal="4" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="64" ordinal="5" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="58" ec="1" el="64" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="75" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Bongo.DataAccess.Migrations.initial</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="75" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.Migrations.initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="20" ordinal="2" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="21" ordinal="3" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="22" ordinal="4" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="24" ordinal="5" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="25" ordinal="6" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="26" ordinal="7" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="27" ordinal="8" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="28" ordinal="9" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="29" ordinal="10" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="30" ordinal="11" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="31" ordinal="12" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="32" ordinal="13" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="33" ordinal="14" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="34" ordinal="15" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="35" ordinal="16" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="36" ordinal="17" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="37" ordinal="18" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="38" ordinal="19" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="39" ordinal="20" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="40" ordinal="21" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="41" ordinal="22" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="42" ordinal="23" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="43" ordinal="24" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="44" ordinal="25" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="45" ordinal="26" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="46" ordinal="27" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="47" ordinal="28" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="48" ordinal="29" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="49" ordinal="30" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="50" ordinal="31" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="51" ordinal="32" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="52" ordinal="33" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="53" ordinal="34" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="54" ordinal="35" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="55" ordinal="36" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="56" ordinal="37" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="57" ordinal="38" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="58" ordinal="39" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="59" ordinal="40" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="60" ordinal="41" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="62" ordinal="42" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="63" ordinal="43" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="64" ordinal="44" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="65" ordinal="45" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="66" ordinal="46" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="67" ordinal="47" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="68" ordinal="48" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="69" ordinal="49" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="70" ordinal="50" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="71" ordinal="51" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="72" ordinal="52" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="73" ordinal="53" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="74" ordinal="54" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="75" ordinal="55" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="76" ordinal="56" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="77" ordinal="57" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="78" ordinal="58" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="79" ordinal="59" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="80" ordinal="60" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="81" ordinal="61" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="82" ordinal="62" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="83" ordinal="63" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="84" ordinal="64" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="85" ordinal="65" sl="85" sc="1" el="85" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="86" ordinal="66" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="87" ordinal="67" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="88" ordinal="68" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="89" ordinal="69" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="90" ordinal="70" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="91" ordinal="71" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="92" ordinal="72" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="93" ordinal="73" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="95" ordinal="74" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="95" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="75" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Bongo.DataAccess.Migrations.ApplicationDbContextModelSnapshot</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="75" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.DataAccess.Migrations.ApplicationDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="20" ordinal="4" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="22" ordinal="5" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="23" ordinal="6" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="24" ordinal="7" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="25" ordinal="8" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="26" ordinal="9" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="27" ordinal="10" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="28" ordinal="11" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="29" ordinal="12" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="30" ordinal="13" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="31" ordinal="14" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="32" ordinal="15" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="33" ordinal="16" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="34" ordinal="17" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="35" ordinal="18" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="36" ordinal="19" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="37" ordinal="20" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="38" ordinal="21" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="39" ordinal="22" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="40" ordinal="23" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="41" ordinal="24" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="42" ordinal="25" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="43" ordinal="26" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="44" ordinal="27" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="45" ordinal="28" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="46" ordinal="29" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="47" ordinal="30" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="48" ordinal="31" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="49" ordinal="32" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="50" ordinal="33" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="51" ordinal="34" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="52" ordinal="35" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="53" ordinal="36" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="54" ordinal="37" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="55" ordinal="38" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="56" ordinal="39" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="57" ordinal="40" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="58" ordinal="41" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="60" ordinal="42" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="61" ordinal="43" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="62" ordinal="44" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="63" ordinal="45" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="64" ordinal="46" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="65" ordinal="47" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="66" ordinal="48" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="67" ordinal="49" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="68" ordinal="50" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="69" ordinal="51" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="70" ordinal="52" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="71" ordinal="53" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="72" ordinal="54" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="73" ordinal="55" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="74" ordinal="56" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="75" ordinal="57" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="76" ordinal="58" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="77" ordinal="59" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="78" ordinal="60" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="79" ordinal="61" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="80" ordinal="62" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="81" ordinal="63" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="82" ordinal="64" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="83" ordinal="65" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="84" ordinal="66" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="85" ordinal="67" sl="85" sc="1" el="85" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="86" ordinal="68" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="87" ordinal="69" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="88" ordinal="70" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="89" ordinal="71" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="90" ordinal="72" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="91" ordinal="73" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="93" ordinal="74" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="93" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="68A8B1A4-868A-48DA-AAF0-879F955B6615">
+      <ModulePath>Bongo.Models.dll</ModulePath>
+      <ModuleTime>2022-06-21T04:57:13</ModuleTime>
+      <ModuleName>Bongo.Models</ModuleName>
+      <Files>
+        <File uid="9" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\StudyRoom.cs" />
+        <File uid="10" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\StudyRoomBooking.cs" />
+        <File uid="11" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\VM\StudyRoomBookingBase.cs" />
+        <File uid="12" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\VM\StudyRoomBookingResult.cs" />
+        <File uid="13" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Models\ModelValidations\DateInFutureAttribute.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Bongo.Models.Model.StudyRoom</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Bongo.Models.Model.StudyRoom::get_Id()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="11" ec="1" el="11" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Bongo.Models.Model.StudyRoom::get_RoomNumber()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Bongo.Models.Model.StudyRoom::get_RoomName()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="13" ec="1" el="13" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="50" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>Bongo.Models.Model.StudyRoomBooking</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Bongo.Models.Model.StudyRoomBooking::get_BookingId()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="14" ec="1" el="14" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Bongo.Models.Model.StudyRoomBooking::get_StudyRoomId()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="15" ec="1" el="15" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>Bongo.Models.Model.VM.StudyRoomBookingBase</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Bongo.Models.Model.VM.StudyRoomBookingBase::get_FirstName()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="15" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Bongo.Models.Model.VM.StudyRoomBookingBase::get_LastName()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="19" ec="1" el="19" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Bongo.Models.Model.VM.StudyRoomBookingBase::get_Email()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="24" ordinal="0" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="24" ec="1" el="24" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.DateTime Bongo.Models.Model.VM.StudyRoomBookingBase::get_Date()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="28" ec="1" el="28" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="50" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>Bongo.Models.Model.VM.StudyRoomBookingResult</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Bongo.Models.Model.VM.StudyRoomBookingCode Bongo.Models.Model.VM.StudyRoomBookingResult::get_Code()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="11" ec="1" el="11" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Bongo.Models.Model.VM.StudyRoomBookingResult::get_BookingId()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Bongo.Models.ModelValidations.DateInFutureAttribute</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Bongo.Models.ModelValidations.DateInFutureAttribute::IsValid(System.Object)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="26" ordinal="0" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="27" ordinal="1" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="29" ordinal="2" sl="29" sc="1" el="29" ec="2" bec="4" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="30" ordinal="3" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="31" ordinal="4" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="32" ordinal="5" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="34" ordinal="6" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="35" ordinal="7" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="29" ordinal="0" path="0" offset="9" offsetend="11" sl="29" fileid="13" />
+                <BranchPoint vc="0" uspid="29" ordinal="1" path="1" offset="9" offsetend="21" sl="29" fileid="13" />
+                <BranchPoint vc="0" uspid="29" ordinal="2" path="0" offset="24" offsetend="26" sl="29" fileid="13" />
+                <BranchPoint vc="0" uspid="29" ordinal="3" path="1" offset="24" offsetend="46" sl="29" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="26" ec="1" el="35" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Models.ModelValidations.DateInFutureAttribute::.ctor()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="15" ec="1" el="17" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Models.ModelValidations.DateInFutureAttribute::.ctor(System.Func`1&lt;System.DateTime&gt;)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="22" ordinal="3" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="23" ordinal="4" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="19" ec="1" el="23" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="5BA14546-D7D3-4261-ACF6-5A2C7418811E">
+      <ModulePath>Bongo.Web.dll</ModulePath>
+      <ModuleTime>2022-06-21T04:57:13</ModuleTime>
+      <ModuleName>Bongo.Web</ModuleName>
+      <Files>
+        <File uid="14" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\Home\Index.cshtml" />
+        <File uid="15" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\Home\Privacy.cshtml" />
+        <File uid="16" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\RoomBooking\Book.cshtml" />
+        <File uid="17" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\RoomBooking\BookingConfirmation.cshtml" />
+        <File uid="18" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\RoomBooking\Index.cshtml" />
+        <File uid="19" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\Rooms\Index.cshtml" />
+        <File uid="20" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\Shared\_Layout.cshtml" />
+        <File uid="21" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Views\_ViewStart.cshtml" />
+        <File uid="22" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Program.cs" />
+        <File uid="23" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Startup.cs" />
+        <File uid="24" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Controllers\HomeController.cs" />
+        <File uid="25" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Controllers\RoomBookingController.cs" />
+        <File uid="26" fullPath="C:\demos\dotnet\UnitTesting\Sparky Unit Testing\SparkyTwo\Bongo_InitialSetup (.NET 6)\Bongo.Web\Controllers\RoomsController.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_Home_Index/&lt;ExecuteAsync&gt;d__10</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_Home_Index/&lt;ExecuteAsync&gt;d__10::MoveNext()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2" ordinal="0" sl="2" sc="1" el="2" ec="2" bec="2" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="2" ordinal="0" path="0" offset="451" offsetend="453" sl="2" fileid="14" />
+                <BranchPoint vc="0" uspid="2" ordinal="1" path="1" offset="451" offsetend="564" sl="2" fileid="14" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="2" ec="1" el="2" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_Home_Privacy/&lt;ExecuteAsync&gt;d__0</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_Home_Privacy/&lt;ExecuteAsync&gt;d__0::MoveNext()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2" ordinal="0" sl="2" sc="1" el="2" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="4" ordinal="1" sl="4" sc="1" el="4" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="2" ec="1" el="4" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="0" numBranchPoints="26" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="26" minCyclomaticComplexity="26" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_RoomBooking_Book/&lt;&lt;ExecuteAsync&gt;b__16_0&gt;d</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="26" nPathComplexity="26" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="15" visitedSequencePoints="0" numBranchPoints="26" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="26" minCyclomaticComplexity="26" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_RoomBooking_Book/&lt;&lt;ExecuteAsync&gt;b__16_0&gt;d::MoveNext()</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="10" ordinal="1" sl="10" sc="1" el="10" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="11" ordinal="2" sl="11" sc="1" el="11" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="15" ordinal="3" sl="15" sc="1" el="15" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="16" ordinal="4" sl="16" sc="1" el="16" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="17" ordinal="5" sl="17" sc="1" el="17" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="21" ordinal="6" sl="21" sc="1" el="21" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="22" ordinal="7" sl="22" sc="1" el="22" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="23" ordinal="8" sl="23" sc="1" el="23" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="27" ordinal="9" sl="27" sc="1" el="27" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="28" ordinal="10" sl="28" sc="1" el="28" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="29" ordinal="11" sl="29" sc="1" el="29" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="31" ordinal="12" sl="31" sc="1" el="31" ec="2" bec="2" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="33" ordinal="13" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="35" ordinal="14" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="9" ordinal="0" path="0" offset="675" offsetend="677" sl="9" fileid="16" />
+                <BranchPoint vc="0" uspid="9" ordinal="1" path="1" offset="675" offsetend="788" sl="9" fileid="16" />
+                <BranchPoint vc="0" uspid="10" ordinal="2" path="0" offset="1289" offsetend="1291" sl="10" fileid="16" />
+                <BranchPoint vc="0" uspid="10" ordinal="3" path="1" offset="1289" offsetend="1402" sl="10" fileid="16" />
+                <BranchPoint vc="0" uspid="11" ordinal="4" path="0" offset="1903" offsetend="1905" sl="11" fileid="16" />
+                <BranchPoint vc="0" uspid="11" ordinal="5" path="1" offset="1903" offsetend="2016" sl="11" fileid="16" />
+                <BranchPoint vc="0" uspid="15" ordinal="6" path="0" offset="2517" offsetend="2519" sl="15" fileid="16" />
+                <BranchPoint vc="0" uspid="15" ordinal="7" path="1" offset="2517" offsetend="2630" sl="15" fileid="16" />
+                <BranchPoint vc="0" uspid="16" ordinal="8" path="0" offset="3131" offsetend="3133" sl="16" fileid="16" />
+                <BranchPoint vc="0" uspid="16" ordinal="9" path="1" offset="3131" offsetend="3245" sl="16" fileid="16" />
+                <BranchPoint vc="0" uspid="17" ordinal="10" path="0" offset="3747" offsetend="3749" sl="17" fileid="16" />
+                <BranchPoint vc="0" uspid="17" ordinal="11" path="1" offset="3747" offsetend="3861" sl="17" fileid="16" />
+                <BranchPoint vc="0" uspid="21" ordinal="12" path="0" offset="4363" offsetend="4365" sl="21" fileid="16" />
+                <BranchPoint vc="0" uspid="21" ordinal="13" path="1" offset="4363" offsetend="4477" sl="21" fileid="16" />
+                <BranchPoint vc="0" uspid="22" ordinal="14" path="0" offset="4979" offsetend="4981" sl="22" fileid="16" />
+                <BranchPoint vc="0" uspid="22" ordinal="15" path="1" offset="4979" offsetend="5093" sl="22" fileid="16" />
+                <BranchPoint vc="0" uspid="23" ordinal="16" path="0" offset="5595" offsetend="5597" sl="23" fileid="16" />
+                <BranchPoint vc="0" uspid="23" ordinal="17" path="1" offset="5595" offsetend="5709" sl="23" fileid="16" />
+                <BranchPoint vc="0" uspid="27" ordinal="18" path="0" offset="6211" offsetend="6213" sl="27" fileid="16" />
+                <BranchPoint vc="0" uspid="27" ordinal="19" path="1" offset="6211" offsetend="6325" sl="27" fileid="16" />
+                <BranchPoint vc="0" uspid="28" ordinal="20" path="0" offset="6881" offsetend="6883" sl="28" fileid="16" />
+                <BranchPoint vc="0" uspid="28" ordinal="21" path="1" offset="6881" offsetend="6995" sl="28" fileid="16" />
+                <BranchPoint vc="0" uspid="29" ordinal="22" path="0" offset="7497" offsetend="7499" sl="29" fileid="16" />
+                <BranchPoint vc="0" uspid="29" ordinal="23" path="1" offset="7497" offsetend="7611" sl="29" fileid="16" />
+                <BranchPoint vc="0" uspid="31" ordinal="24" path="0" offset="7716" offsetend="7718" sl="31" fileid="16" />
+                <BranchPoint vc="0" uspid="31" ordinal="25" path="1" offset="7716" offsetend="7792" sl="31" fileid="16" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="9" ec="1" el="35" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_RoomBooking_Book/&lt;&lt;ExecuteAsync&gt;b__16_1&gt;d</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_RoomBooking_Book/&lt;&lt;ExecuteAsync&gt;b__16_1&gt;d::MoveNext()</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="41" ec="1" el="41" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_RoomBooking_BookingConfirmation/&lt;ExecuteAsync&gt;d__10</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_RoomBooking_BookingConfirmation/&lt;ExecuteAsync&gt;d__10::MoveNext()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="12" ordinal="1" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="13" ordinal="2" sl="13" sc="1" el="13" ec="2" bec="2" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="13" ordinal="0" path="0" offset="542" offsetend="544" sl="13" fileid="17" />
+                <BranchPoint vc="0" uspid="13" ordinal="1" path="1" offset="542" offsetend="655" sl="13" fileid="17" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="13" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_RoomBooking_Index/&lt;ExecuteAsync&gt;d__0</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_RoomBooking_Index/&lt;ExecuteAsync&gt;d__0::MoveNext()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="2" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="22" ordinal="3" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="23" ordinal="4" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="24" ordinal="5" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="25" ordinal="6" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="26" ordinal="7" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="27" ordinal="8" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="18" ordinal="1" path="1" offset="365" offsetend="53" sl="18" fileid="18" />
+                <BranchPoint vc="0" uspid="18" ordinal="0" path="0" offset="365" offsetend="370" sl="18" fileid="18" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="18" ec="1" el="27" bec="0" bev="0" fileid="18" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_Rooms_Index/&lt;ExecuteAsync&gt;d__0</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_Rooms_Index/&lt;ExecuteAsync&gt;d__0::MoveNext()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="2" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="9" ordinal="1" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="23" ordinal="2" sl="23" sc="1" el="23" ec="2" bec="2" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="24" ordinal="3" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="27" ordinal="4" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="30" ordinal="5" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="33" ordinal="6" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="37" ordinal="7" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="39" ordinal="8" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="41" ordinal="9" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="43" ordinal="10" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="8" ordinal="0" path="0" offset="46" offsetend="51" sl="8" fileid="19" />
+                <BranchPoint vc="0" uspid="23" ordinal="3" path="1" offset="276" offsetend="97" sl="23" fileid="19" />
+                <BranchPoint vc="0" uspid="23" ordinal="2" path="0" offset="276" offsetend="281" sl="23" fileid="19" />
+                <BranchPoint vc="0" uspid="8" ordinal="1" path="1" offset="46" offsetend="335" sl="8" fileid="19" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="43" bec="0" bev="0" fileid="19" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__25_0&gt;d</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__25_0&gt;d::MoveNext()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="4" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="6" ordinal="0" path="0" offset="425" offsetend="427" sl="6" fileid="20" />
+                <BranchPoint vc="0" uspid="6" ordinal="1" path="1" offset="425" offsetend="538" sl="6" fileid="20" />
+                <BranchPoint vc="0" uspid="6" ordinal="2" path="0" offset="921" offsetend="923" sl="6" fileid="20" />
+                <BranchPoint vc="0" uspid="6" ordinal="3" path="1" offset="921" offsetend="1034" sl="6" fileid="20" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="6" bec="0" bev="0" fileid="20" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="16" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="16" minCyclomaticComplexity="16" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__25_1&gt;d</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="16" nPathComplexity="16" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="16" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="16" minCyclomaticComplexity="16" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__25_1&gt;d::MoveNext()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="37" ordinal="0" sl="37" sc="1" el="37" ec="2" bec="14" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="48" ordinal="1" sl="48" sc="1" el="48" ec="2" bec="2" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="49" ordinal="2" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="37" ordinal="0" path="0" offset="618" offsetend="620" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="1" path="1" offset="618" offsetend="731" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="2" path="0" offset="1240" offsetend="1242" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="3" path="1" offset="1240" offsetend="1353" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="4" path="0" offset="1862" offsetend="1864" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="5" path="1" offset="1862" offsetend="1975" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="6" path="0" offset="2484" offsetend="2486" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="7" path="1" offset="2484" offsetend="2597" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="8" path="0" offset="3124" offsetend="3126" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="9" path="1" offset="3124" offsetend="3238" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="10" path="0" offset="3600" offsetend="3602" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="11" path="1" offset="3600" offsetend="3714" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="12" path="0" offset="4076" offsetend="4078" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="37" ordinal="13" path="1" offset="4076" offsetend="4190" sl="37" fileid="20" />
+                <BranchPoint vc="0" uspid="48" ordinal="14" path="0" offset="4701" offsetend="4703" sl="48" fileid="20" />
+                <BranchPoint vc="0" uspid="48" ordinal="15" path="1" offset="4701" offsetend="4815" sl="48" fileid="20" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="37" ec="1" el="49" bec="0" bev="0" fileid="20" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AspNetCoreGeneratedDocument.Views__ViewStart/&lt;ExecuteAsync&gt;d__0</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AspNetCoreGeneratedDocument.Views__ViewStart/&lt;ExecuteAsync&gt;d__0::MoveNext()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2" ordinal="0" sl="2" sc="1" el="2" ec="2" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="2" ec="1" el="2" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Bongo.Web.Program</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Web.Program::Main(System.String[])</Name>
+              <FileRef uid="22" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="22" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="17" bec="0" bev="0" fileid="22" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.Extensions.Hosting.IHostBuilder Bongo.Web.Program::CreateHostBuilder(System.String[])</Name>
+              <FileRef uid="22" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="21" ordinal="1" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="22" ordinal="2" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="23" ordinal="3" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="24" ordinal="4" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="22" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="20" ec="1" el="24" bec="0" bev="0" fileid="22" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="34" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Bongo.Web.Startup</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.Extensions.Configuration.IConfiguration Bongo.Web.Startup::get_Configuration()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="27" ec="1" el="27" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Web.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="32" ordinal="1" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="33" ordinal="2" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="34" ordinal="3" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="35" ordinal="4" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="36" ordinal="5" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="37" ordinal="6" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="39" ordinal="7" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="40" ordinal="8" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="31" ec="1" el="40" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="20" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Web.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="44" ordinal="0" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="45" ordinal="1" sl="45" sc="1" el="45" ec="2" bec="2" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="46" ordinal="2" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="47" ordinal="3" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="48" ordinal="4" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="50" ordinal="5" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="51" ordinal="6" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="53" ordinal="7" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="54" ordinal="8" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="55" ordinal="9" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="56" ordinal="10" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="58" ordinal="11" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="60" ordinal="12" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="62" ordinal="13" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="63" ordinal="14" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="64" ordinal="15" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="65" ordinal="16" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="66" ordinal="17" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="67" ordinal="18" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="68" ordinal="19" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="45" ordinal="0" path="0" offset="9" offsetend="11" sl="45" fileid="23" />
+                <BranchPoint vc="0" uspid="45" ordinal="1" path="1" offset="9" offsetend="22" sl="45" fileid="23" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="44" ec="1" el="68" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Web.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="22" ec="1" el="25" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Bongo.Web.Controllers.HomeController</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult Bongo.Web.Controllers.HomeController::Index()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="22" ordinal="1" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="23" ordinal="2" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="21" ec="1" el="23" bec="0" bev="0" fileid="24" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult Bongo.Web.Controllers.HomeController::Privacy()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="26" ordinal="0" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="27" ordinal="1" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="28" ordinal="2" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="26" ec="1" el="28" bec="0" bev="0" fileid="24" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Web.Controllers.HomeController::.ctor(Microsoft.Extensions.Logging.ILogger`1&lt;Bongo.Web.Controllers.HomeController&gt;)</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="15" ec="1" el="18" bec="0" bev="0" fileid="24" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="29" visitedSequencePoints="23" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="79.31" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="5" />
+          <FullName>Bongo.Web.Controllers.RoomBookingController</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult Bongo.Web.Controllers.RoomBookingController::Index()</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="22" ordinal="1" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="21" ec="1" el="24" bec="0" bev="0" fileid="25" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult Bongo.Web.Controllers.RoomBookingController::Book()</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="26" ordinal="0" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="0" uspid="27" ordinal="1" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="0" uspid="28" ordinal="2" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="26" ec="1" el="28" bec="0" bev="0" fileid="25" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult Bongo.Web.Controllers.RoomBookingController::Book(Bongo.Models.Model.StudyRoomBooking)</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="32" ordinal="0" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="3" uspid="33" ordinal="1" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="3" uspid="34" ordinal="2" sl="34" sc="1" el="34" ec="2" bec="2" bev="2" fileid="25" />
+                <SequencePoint vc="2" uspid="35" ordinal="3" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="2" uspid="36" ordinal="4" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="2" uspid="37" ordinal="5" sl="37" sc="1" el="37" ec="2" bec="2" bev="2" fileid="25" />
+                <SequencePoint vc="1" uspid="38" ordinal="6" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="39" ordinal="7" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="40" ordinal="8" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="41" ordinal="9" sl="41" sc="1" el="41" ec="2" bec="2" bev="2" fileid="25" />
+                <SequencePoint vc="1" uspid="42" ordinal="10" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="43" ordinal="11" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="44" ordinal="12" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="2" uspid="45" ordinal="13" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="3" uspid="47" ordinal="14" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="3" uspid="48" ordinal="15" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="34" ordinal="0" path="0" offset="26" offsetend="28" sl="34" fileid="25" />
+                <BranchPoint vc="1" uspid="37" ordinal="2" path="0" offset="53" offsetend="55" sl="37" fileid="25" />
+                <BranchPoint vc="1" uspid="37" ordinal="3" path="1" offset="53" offsetend="72" sl="37" fileid="25" />
+                <BranchPoint vc="1" uspid="41" ordinal="4" path="0" offset="85" offsetend="87" sl="41" fileid="25" />
+                <BranchPoint vc="2" uspid="41" ordinal="5" path="1" offset="85" offsetend="111" sl="41" fileid="25" />
+                <BranchPoint vc="3" uspid="34" ordinal="1" path="1" offset="26" offsetend="112" sl="34" fileid="25" />
+              </BranchPoints>
+              <MethodPoint vc="16" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="32" ec="1" el="48" bec="0" bev="0" fileid="25" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult Bongo.Web.Controllers.RoomBookingController::BookingConfirmation(Bongo.Models.Model.VM.StudyRoomBookingResult)</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="50" ordinal="0" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="0" uspid="51" ordinal="1" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="0" uspid="52" ordinal="2" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="50" ec="1" el="52" bec="0" bev="0" fileid="25" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Web.Controllers.RoomBookingController::.ctor(Bongo.Core.Services.IServices.IStudyRoomBookingService)</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="4" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="4" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="4" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="16" ec="1" el="19" bec="0" bev="0" fileid="25" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Bongo.Web.Controllers.RoomsController</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult Bongo.Web.Controllers.RoomsController::Index()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="19" ec="1" el="21" bec="0" bev="0" fileid="26" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Bongo.Web.Controllers.RoomsController::.ctor(Bongo.Core.Services.IServices.IStudyRoomService)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="17" ordinal="3" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="14" ec="1" el="17" bec="0" bev="0" fileid="26" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
