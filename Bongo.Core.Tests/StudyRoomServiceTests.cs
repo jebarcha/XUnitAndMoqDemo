@@ -19,7 +19,6 @@ namespace Bongo.Core
         private List<StudyRoom> _availableStudyRoom;
         private DbContextOptions<ApplicationDbContext> options;
         private Mock<IStudyRoomRepository> _studyRoomRepoMock;
-
         public StudyRoomServiceTests()
         {
             options = new DbContextOptionsBuilder<ApplicationDbContext>()
@@ -40,15 +39,21 @@ namespace Bongo.Core
                     RoomNumber = "A2"
                 }
             };
-          
+
+            _studyRoomRepoMock = new Mock<IStudyRoomRepository>();
+        }
+
+        [Fact]
+        public void GetAll_StudyRoom_OneAndTwo_CheckGetAllIsCalledOnce()
+        {
+            _studyRoomRepoMock.Object.GetAll();
+            _studyRoomRepoMock.Verify(x => x.GetAll(), Times.Once);
         }
 
         [Fact]
         public void GetAll_StudyRoom_OneAndTwo_CheckBothStudyRoomsFromDatabase()
         {
-            _studyRoomRepoMock = new Mock<IStudyRoomRepository>();
             _studyRoomRepoMock.Setup(x => x.GetAll()).Returns(_availableStudyRoom);
-
             var result = _studyRoomRepoMock.Object.GetAll();
             Assert.True(result.Count() > 0);
         }
